@@ -25,16 +25,25 @@ const Navbar = () => {
                 </div>
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
                     <li className='nav-item'>
-                        <a href='/' onClick={closeMenu}>Home</a>
+                        <a href='/' onClick={closeMenu}>ABOUT</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#about' onClick={closeMenu}>About</a>
+                        <a href='#people' onClick={closeMenu}>PEOPLE</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#testimonials' onClick={closeMenu}>Testimonials</a>
+                        <a href='#topics' onClick={closeMenu}>TOPICS</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#demo' onClick={closeMenu}>Demo</a>
+                        <a href='#research' onClick={closeMenu}>RESERACH OUTPUT</a>
+                    </li>
+                    <li className='nav-item'>
+                        <a href='#new' onClick={closeMenu}>NEWS & EVENTS</a>
+                    </li>
+                    <li className='nav-item'>
+                        <a href='#blog' onClick={closeMenu}>BLOG</a>
+                    </li>
+                    <li className='nav-item'>
+                        <a href='#contacts' onClick={closeMenu}>CONTACTS</a>
                     </li>
                 </ul>
             </nav>

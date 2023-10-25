@@ -1,7 +1,6 @@
-import React from 'react'
-import './Hero.css'
+import './Banner.css'
 
-const Hero = () => {
+const Banner = () => {
     return (
         <div className='hero'>
             <div className='content'>
@@ -15,4 +14,4 @@ const Hero = () => {
     )
 }
 
-export default Hero
+export default Banner
