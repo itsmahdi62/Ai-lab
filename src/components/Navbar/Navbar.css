@@ -1,13 +1,13 @@
 .header {
     position: fixed;
-    height: 90px;
+    height: 80px;
     width: 100%;
     top: 0;
     left: 0;
     z-index: 1;
     transition: .3s ease-in;
     overflow: hidden;
-    background-color: rgba(0,0,0,.9);
+    background-color:transparent;
 }
 
 .header .navbar {
@@ -59,7 +59,7 @@
 @media screen and (max-width:940px) {
     .header {
         max-width: 100%;
-        background-color: rgba(0,0,0,.9);
+        background-color:transparent;
     }
 
     .header .navbar {
@@ -96,6 +96,10 @@
     }
 }
 
+.addBg{
+    background-color:  rgba(0, 0, 0, 0.445);
+    box-shadow: none;
+}
 
 
 

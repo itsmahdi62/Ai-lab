@@ -8,12 +8,26 @@ import './Navbar.css'
 const Navbar = () => {
 
     const [click, setClick] = useState(false)
-    const handleClick = () => setClick(!click)
+    const [header , setHeader] = useState('header')
 
+    const handleClick = () => setClick(!click)
     const closeMenu = () => setClick(false)
 
+    const addBg = () =>{
+        if(window.scrollY >= 50){
+            setHeader('header addBg')
+        }
+    }
+    const removeBg = () =>{
+        if(window.scrollY < 50){
+            setHeader('header')
+        }
+    }
+    window.addEventListener('scroll', addBg)
+    window.addEventListener('scroll', removeBg)
+
     return (
-        <div className='header'>
+        <div className={header}>
             <nav className='navbar'>
                 <a href='/' className='logo'>
                     <img src={logo} alt='logo' />
