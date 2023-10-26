@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { FaBars, FaTimes } from 'react-icons/fa'
 import logo from '../../assets/logo.png'
-
+import { Link } from 'react-scroll'
 
 import './Navbar.css'
 
@@ -25,25 +25,25 @@ const Navbar = () => {
                 </div>
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
                     <li className='nav-item'>
-                        <a href='/' onClick={closeMenu}>ABOUT</a>
+                        <Link to="about" spy={true} offset={50} duration={500} smooth={true} onClick={closeMenu}>ABOUT</Link>
                     </li>
                     <li className='nav-item'>
-                        <a href='#people' onClick={closeMenu}>PEOPLE</a>
+                        <Link to="members" spy={true} offset={50} duration={500} smooth={true} onClick={closeMenu}>Members</Link>
                     </li>
                     <li className='nav-item'>
-                        <a href='#topics' onClick={closeMenu}>TOPICS</a>
+                        <Link to="topics" spy={true} offset={50} duration={500} smooth={true} onClick={closeMenu}>TOPICS</Link>
                     </li>
                     <li className='nav-item'>
-                        <a href='#research' onClick={closeMenu}>RESERACH OUTPUT</a>
+                        <Link to="demo" spy={true} offset={50} duration={500} smooth={true} onClick={closeMenu}>RESERACH OUTPUT</Link>
                     </li>
                     <li className='nav-item'>
-                        <a href='#new' onClick={closeMenu}>NEWS & EVENTS</a>
+                        <Link to="news" spy={true} offset={50} duration={500} smooth={true} onClick={closeMenu}>NEWS & EVENTS</Link>
                     </li>
                     <li className='nav-item'>
-                        <a href='#blog' onClick={closeMenu}>BLOG</a>
+                        <Link to="blog" spy={true} offset={-100} duration={500} smooth={true}onClick={closeMenu}>BLOG</Link>
                     </li>
                     <li className='nav-item'>
-                        <a href='#contacts' onClick={closeMenu}>CONTACTS</a>
+                        <Link to="contacts" spy={true} offset={-150} duration={500} smooth={true} onClick={closeMenu}>CONTACTS</Link>
                     </li>
                 </ul>
             </nav>

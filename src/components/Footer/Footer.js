@@ -19,7 +19,7 @@ const Footer = () => {
                         <a href='#research' >RESERACH OUTPUT</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#new' >NEWS & EVENTS</a>
+                        <a href='#news' >NEWS & EVENTS</a>
                     </li>
                     <li className='nav-item'>
                         <a href='#blog' >BLOG</a>
