@@ -6,9 +6,9 @@ const Demo = () => {
         <div className='demo' id='demo'>
             <div className='container'>
                 <div className='col-1'>
-                    <p>More Than 100 Financial Planners,</p>
+                    <p>its layout. The point of using Lorem Ipsum is that it has</p>
                     <p>One Philosophy</p>
-                    <p>Every single one of our financial advisors receives rigorous training according to John Doe’s philosophy based on academic research (including that of a Nobel laureate in Economics) and Behavioral Finance.</p>
+                    <p>make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets contain.</p>
                     <button className='button'>Get your free financial analysis</button>
                 </div>
                 <div className='col-2'>

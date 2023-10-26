@@ -6,9 +6,9 @@ const Banner = () => {
             <div className='content'>
                 <p>Call us</p>
                 <p>1-800-123-4567</p>
-                <p>Because Money</p>
-                <p>Doesn't come with instructions</p>
-                <button href='/' className='button'>Free Consultation</button>
+                <p>Lorem impsum</p>
+                <p>bled it to make a type spe</p>
+                <button href='/' className='button'>so the leap in</button>
             </div>
         </div>
     )

@@ -13,14 +13,11 @@ const Footer = () => {
                         <a href='#people' >PEOPLE</a>
                     </li>
                     <li className='nav-item'>
-                        <a href='#topics' >TOPICS</a>
-                    </li>
-                    <li className='nav-item'>
                         <a href='#research' >RESERACH OUTPUT</a>
                     </li>
-                    <li className='nav-item'>
+                    {/* <li className='nav-item'>
                         <a href='#news' >NEWS & EVENTS</a>
-                    </li>
+                    </li> */}
                     <li className='nav-item'>
                         <a href='#blog' >BLOG</a>
                     </li>

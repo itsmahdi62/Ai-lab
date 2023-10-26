@@ -10,8 +10,8 @@ const About = () => {
                 <div className='col-2'>
                     <h2>About</h2>
                     <span className='line'></span>
-                    <p>Intense is an International Financial Planning company with offices i n multiple jurisdictions over the world. Working with Intense gives me the ability to advise internat ional expatriates living in the middle east from where I live in USA.</p>
-                    <p>I am John Doe, a senior advisor for an independently owned financial planning company called Intense.</p>
+                    <p> is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The pointir default model text, and a search for 'lorem ipsum' will uncover many web sites still in thei of using Lorem Ipsum is that it has a more-or</p>
+                    <p>etters, as opposed to using 'Content here, contere', making it look like readable evol the years, sometimes by accident, sometimes o</p>
                     <button className='button'>Explore More</button>
                 </div>
             </div>

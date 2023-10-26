@@ -22,6 +22,7 @@
 
 .header .nav-menu a {
     color: #ffffff;
+    cursor: pointer;
 }
 
 .header .navbar img {
@@ -46,6 +47,8 @@
 .header .nav-item a:hover {
     padding-bottom: 12px;
     border-bottom: 3px solid var(--secondary-color);
+    transition: 0.5s;
+    font-size: 1.25rem;
 }
 
 .hamburger {

@@ -11,19 +11,19 @@ const Members = () => {
                 <div className='content'>
                     <div className='card'>
                         <img src={user1} alt='user1'/>
-                        <p>It is not every day that you come across a passionate and trustworthy financial advisor. John Doe is true professional who does his work really well. Thanks John!</p>
+                        <p>make a type speved not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets contain</p>
                         <p><span>Johnson.M.J.</span></p>
                         <p>Director of "Financial Times"</p>
                     </div>
                     <div className='card'>
                         <img src={user1} alt='user1'/>
-                        <p>In just 2 very short meetings with John he managed to find the solution personally catered to my situation and expectations. Punctual, well informed and very reliable.</p>
+                        <p>make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised i0s with the release of Letraset sheets contain</p>
                         <p><span>Carol Harper</span></p>
                         <p>Director at Risktec Solutions Ltd</p>
                     </div>
                     <div className='card'>
                         <img src={user1} alt='user1'/>
-                        <p>A very professional financial advisor, who is true to his word. John has demonstrated a high amount of integrity in the time I have known him, and he is fast to respond to my concerns.</p>
+                        <p>make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Le</p>
                         <p><span>Snow.J.R.</span></p>
                         <p>Managing Director of BPW Global</p>
                     </div>
