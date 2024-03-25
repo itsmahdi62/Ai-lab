@@ -6,7 +6,7 @@ const Demo = () => {
     <div className="demo" id="demo">
       <h4>List of articles</h4>
 
-      <div className="px-6 grid grid-cols-2 gap-4 ">
+      <div className="px-6 grid grid-cols-1  gap-4 sm:grid-cols-2 ">
         <a
           href="/citations?view_op=view_citation&amp;hl=en&amp;user=0SXb4EsAAAAJ&amp;citation_for_view=0SXb4EsAAAAJ:5Ul4iDaHHb8C"
           class="gsc_a_at">
