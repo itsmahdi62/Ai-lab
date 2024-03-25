@@ -35,7 +35,11 @@ const About = () => {
           </p>
           <p>Social medias</p>
           <div className="grid grid-cols-4 items-center justify-between  mt-8">
-            <a className="" href="https://orcid.org/0000-0002-1813-8417">
+            <a
+              className=""
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://orcid.org/0000-0002-1813-8417">
               <img
                 src="https://orcid.org/assets/vectors/orcid.logo.icon.svg"
                 alt=""
@@ -44,6 +48,8 @@ const About = () => {
             </a>
             <a
               className=""
+              target="_blank"
+              rel="noopener noreferrer"
               href="https://www.linkedin.com/in/mehdi-bahaghighat/">
               <svg
                 className=""
@@ -60,6 +66,8 @@ const About = () => {
             </a>
             <a
               className=""
+              target="_blank"
+              rel="noopener noreferrer"
               href="https://www.researchgate.net/profile/Mahdi-Bahaghighat">
               <img
                 src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/ResearchGate_Logo.png/330px-ResearchGate_Logo.png"
@@ -69,6 +77,8 @@ const About = () => {
             </a>
             <a
               className="ms-8"
+              target="_blank"
+              rel="noopener noreferrer"
               href="https://scholar.google.com/citations?user=0SXb4EsAAAAJ&hl=en&oi=ao">
               <img
                 src="https://scholar.google.com/favicon.ico"
