@@ -1,65 +1,27 @@
 .demo {
-    margin: 5rem auto;
-    padding: 1rem;
-    background-color: #f8f8f8;
-    width: 100%;
+  margin: 5rem auto;
+  padding: 1rem 5rem;
+  background-color: #f8f8f8;
+  width: 100%;
 }
 
-.demo .container {
-    width: 1240px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+.demo h4 {
+  font-size: 3rem;
+  font-style: italic;
+  font-weight: 600;
+  margin-bottom: 3rem;
+  padding: 0 1.5rem;
 }
 
-.demo .col-1 {
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
+.demo div a {
+  padding: 1rem;
+  border: 0.5px solid rgb(116, 115, 115);
+  border-radius: 15px;
 }
-
-.demo .col-1 p:nth-child(1) {
-    font-size: 1.8rem;
-    font-style: italic;
-}
-
-.demo .col-1 p:nth-child(2) {
-    font-size: 3rem;
-    font-weight: 600;
-    margin: .5rem 0;
-}
-
-.demo .col-1 p:nth-child(3) {
-    font-size: 1.2rem;
-    margin-bottom: 1rem;
-}
-
-
-.demo .col-2 {
-    margin: auto;
-}
-
 
 @media screen and (max-width: 940px) {
-    .demo .container {
-        max-width: 100%;
-        grid-template-columns: 1fr;
-        grid-gap: 30px;
-    }
-
-    .demo iframe {
-        width: 100%;
-        height: auto;
-    }
+  .demo iframe {
+    width: 100%;
+    height: auto;
+  }
 }
-
-
-
-
-
-
-
-
-
-
-
