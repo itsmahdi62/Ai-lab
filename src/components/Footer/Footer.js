@@ -12,8 +12,8 @@ const Footer = () => {
           <li className="nav-item">
             <a href="#people">PEOPLE</a>
           </li>
-          <li className="nav-item">\
-            <a href="#research">RESERACH OUTPUT</a>
+          <li className="nav-item">
+            \<a href="#research">RESERACH OUTPUT</a>
           </li>
           <li className="nav-item">
             <a href="#blog">BLOG</a>
